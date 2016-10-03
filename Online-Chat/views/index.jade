@@ -1,5 +1,27 @@
-extends layout
-
-block content
-  h1= title
-  p Welcome to #{title}
+doctype html
+html
+  head
+    title= 'online-chat'
+    link(rel='stylesheet', href='/stylesheets/index.css')
+  body
+    .register
+      .text Please input your Username:
+      input(type='text').username
+      .btn
+        .surebtn Yes
+        .cancelbtn cancel
+    .total
+      .chat
+        .head
+          .top
+          .logout#out
+        .chatcontent
+          .chattext
+      .send
+        input.sendcontent(type="text")
+        .sendbtn
+  script(src="https://code.jquery.com/jquery-1.10.2.min.js")
+  script(src="/socket.io/socket.io.js")
+  script(src="/javascripts/index.js")
+  //- script(src="/Users/crystal/Desktop/all-the-thing/matrix/mine/Online-chat/Online-Chat/public/javascripts/require.js")
+  //- script(src="/Users/crystal/Desktop/all-the-thing/matrix/mine/Online-chat/Online-Chat/public/javascripts/socket.js")

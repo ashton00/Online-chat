@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>online-chat</title>
+    <link rel="stylesheet" href="/stylesheets/index.css">
+  </head>
+  <body>
+    <div class="register">
+      <h3>Please input your Username:</h3>
+      <input type="text" class="username">
+      <div class="userbtn"></div>
+    </div>
+    <div class="total">
+      <div class="chat">
+        <div class="top">User: Crytal, Online User Nums: 10</div>
+        <div class="chatcontent"></div>
+      </div>
+      <div class="send">
+        <input type="text" class="sendcontent">
+        <div class="sendbtn"></div>
+      </div>
+    </div>
+  </body>
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/javascripts/index.js"></script>
+</html>
