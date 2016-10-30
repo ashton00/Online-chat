@@ -7,6 +7,7 @@ var userlist = {
   userNums: 0,
   allUser: []
 }
+
 exports.readUserList = () => {
   console.log('----readUserList');
   let content;
@@ -51,3 +52,8 @@ exports.deleteUser = (username) => {
     writeUserList();
   }
 }
+
+
+exports.getUserlist = () => {
+  return userlist;
+};

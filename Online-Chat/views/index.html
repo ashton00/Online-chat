@@ -6,18 +6,50 @@
   </head>
   <body>
     <div class="register">
-      <h3>Please input your Username:</h3>
+      <div class="text">Please input your Username:</div>
       <input type="text" class="username">
-      <div class="userbtn"></div>
-    </div>
-    <div class="total">
-      <div class="chat">
-        <div class="top">User: Crytal, Online User Nums: 10</div>
-        <div class="chatcontent"></div>
+      <div class="btn">
+        <div class="surebtn">Yes</div>
+        <div class="cancelbtn">cancel</div>
       </div>
-      <div class="send">
-        <input type="text" class="sendcontent">
-        <div class="sendbtn"></div>
+    </div>
+    <div class="all">
+      <div class="total">
+        <div class="chat">
+          <div class="head">
+            <div class="top"></div>
+            <div id="out" class="logout"></div>
+          </div>
+          <div class="chatcontent">
+            <div class="chattext"></div>
+          </div>
+        </div>
+        <div class="send">
+          <input type="text" class="sendcontent">
+          <div class="sendbtn"></div>
+        </div>
+      </div>
+      <div class="total1">
+        <div class="chat1">
+          <div class="head">
+            <div class="top1"></div>
+            <div id="out" class="logout"></div>
+          </div>
+          <div class="chatcontent">
+            <div class="chattext1"></div>
+          </div>
+        </div>
+        <div class="send">
+          <input type="text" class="sendcontent1">
+          <div class="sendbtn"></div>
+        </div>
+      </div>
+      <div class="userlist">
+        <div class="usercontent">
+          <div onclick="talkToAll()" class="wrap">
+            <div class="back">返回大厅</div>
+          </div>
+        </div>
       </div>
     </div>
   </body>

@@ -10,16 +10,33 @@ html
       .btn
         .surebtn Yes
         .cancelbtn cancel
-    .total
-      .chat
-        .head
-          .top
-          .logout#out
-        .chatcontent
-          .chattext
-      .send
-        input.sendcontent(type="text")
-        .sendbtn
+    .all
+      .total
+        .chat
+          .head
+            .top
+            .logout#out
+          .chatcontent
+            .chattext
+
+        .send
+          input.sendcontent(type="text")
+          .sendbtn
+      .total1
+        .chat1
+          .head
+            .top1
+            .logout#out
+          .chatcontent
+            .chattext1
+        .send
+          input.sendcontent1(type="text")
+          .sendbtn
+      .userlist
+        .usercontent
+          .wrap(onclick="talkToAll()")
+            .back 返回大厅
+
   script(src="https://code.jquery.com/jquery-1.10.2.min.js")
   script(src="/socket.io/socket.io.js")
   script(src="/javascripts/index.js")

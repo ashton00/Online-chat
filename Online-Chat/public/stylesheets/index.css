@@ -86,10 +86,98 @@ a {
   color: white;
   opacity: 0.6;
 }
-.total {
+.all {
   width: 100%;
   height: 100%;
+  margin-top:40px;
 }
+.total {
+  width: 68%;
+  height: 100%;
+  display: inline-block;
+}
+
+.total1 {
+  width: 68%;
+  height: 100%;
+  display: inline-block;
+}
+
+
+.userlist {
+  width: 28%;
+  height: 100%;
+  display: inline;
+  float: right;
+  margin-right: 30px;
+  border-radius: 15pt;
+}
+
+.usercontent {
+  display:block;
+  float: left;
+  margin-left: 20px;
+  width: 90%;
+  height: 90%;
+  margin: 3%;
+  cursor: pointer;
+}
+
+.oneuser {
+  width: 95%;
+  height: 50px;
+  margin: 5px 2px;
+  border-radius: 3pt;
+  border: 1pt solid white;
+}
+.oneuser:hover {
+  background-color: lightblue;
+  opacity: 0.6;
+}
+.avatar {
+  float: left;
+  margin: 5px;
+  width: 40px;
+  height: 40px;
+}
+
+.plist {
+  width: 50px;
+  font: 10pt;
+  margin: 0 auto;
+  color: white;
+}
+.name {
+  float: left;
+  color: white;
+  width: 40%;
+  height: 40px;
+  margin-left : 20px;
+  font-size: 10pt;
+  line-height: 40px;
+}
+
+.wrap {
+  width: 95%;
+  height: 50px;
+  margin: 5px 2px;
+  border-radius: 3pt;
+}
+.wrap:hover {
+  background-color: lightblue;
+  opacity: 0.6;
+}
+.back {
+  float: left;
+  color: white;
+  font-size: 15pt;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+
+
 
 .chat {
   /*padding-top: 5px;*/
@@ -101,6 +189,16 @@ a {
   border-top-left-radius: 5pt;
 }
 
+.chat1 {
+  /*padding-top: 5px;*/
+  width: 80%;
+  height: 75%;
+  margin: 0 auto;
+  background-color: #9999CC;
+  border-top-right-radius: 5pt; 
+  border-top-left-radius: 5pt;
+}
+
 .head{
   display: block;
   width: 100%;
@@ -108,6 +206,21 @@ a {
   text-align: center;
 }
 .top{
+  display: inline;
+  height: 50px;
+  padding: 10px 20px;
+  color: white;
+  opacity: 0.8;
+  font-size: 15pt;
+  text-align: center;
+  line-height: 50px;
+  width: 40%;
+  border-radius: 5pt;
+  background-color: black;
+  margin: 0 auto;
+}
+
+.top1{
   display: inline;
   height: 50px;
   padding: 10px 20px;
@@ -146,6 +259,15 @@ a {
   /*overflow-x: scroll;*/
   overflow-y: auto;
 }
+
+.chattext1 {
+  height: 400px;
+  max-height: 400px;
+  /*overflow-x: scroll;*/
+  overflow-y: auto;
+}
+
+
 ::-webkit-scrollbar{
   width:0px
 }
@@ -173,3 +295,17 @@ a {
   outline: none;
 }
 
+.sendcontent1 {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0 20px 20px 20px;
+  border: 0;
+  background-color: black;
+  overflow: scroll;
+  word-wrap: break-word;
+  font-size: 20pt;
+  color: white;
+  opacity: 0.8;
+  outline: none;
+}
